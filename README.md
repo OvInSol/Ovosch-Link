@@ -30,6 +30,7 @@ Grab the latest APK from the [Releases](../../releases) page and install it dire
 ## Building from source
 
 **Note:** The repository is currently private. The build instructions are provided for internal use only.
+
 ```bash
 git clone https://github.com/OvInSol/ovosch-link.git
 cd ovosch-link
@@ -49,8 +50,12 @@ This project is under active, pre-1.0-in-spirit development. Core functionality 
 - Kill switch fails closed on tunnel loss (best-effort — see source comments in `OvoschVpnService.kt` for the documented edge case where a blocking TUN can't be established)
 - No telemetry or analytics; no ads
 
-This app is provided as-is for personal use. It has not been submitted for independent security audit beyond internal review — the source code is not publicly available; this application is provided as-is. No independent security audit has been performed..
+This app is provided as-is for personal use. The source code is not publicly available. No independent security audit has been performed.
 
 ## License
 
-Licensed under the [Mozilla Public License 2.0](LICENSE). Ovosch Link uses [Xray-core](https://github.com/XTLS/Xray-core) (Mozilla Public License 2.0) via [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite) as its underlying proxy engine.
+Copyright © 2026 Alex (OvInSol). All rights reserved.
+
+The source code of Ovosch Link is proprietary and is not licensed for use, modification, or redistribution by third parties. The compiled APK is made available for personal, non-commercial use as-is, without warranty of any kind.
+
+This app uses [Xray-core](https://github.com/XTLS/Xray-core) via [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite), both licensed under the [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/), as an unmodified third-party dependency.
