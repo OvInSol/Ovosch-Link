@@ -1,3 +1,11 @@
+<a href="https://github.com/user-attachments/assets/c8313d5b-01e8-4de7-9cfe-5277dd97f47f" target="_blank">
+  <img 
+    src="https://github.com/user-attachments/assets/c8313d5b-01e8-4de7-9cfe-5277dd97f47f" 
+    alt="Интерфейс приложения" 
+    width="700"
+  />
+</a>
+
 # Ovosch Link
 
 Ovosch Link is an Android VPN/proxy client built on [Xray-core](https://github.com/XTLS/Xray-core), with a native Kotlin + Jetpack Compose UI. It supports VLESS (with Reality), VMess, Trojan, Shadowsocks, and Hysteria2, and can run either as a full-device VPN or as a scoped local proxy.
