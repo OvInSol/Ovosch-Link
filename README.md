@@ -52,7 +52,7 @@ The unsigned build requires a signing config to produce an installable release A
 
 ## Status
 
-This project is under active, pre-1.0-in-spirit development. Core functionality (all five protocols, VPN + proxy modes, kill switch, split tunneling, subscriptions) is implemented and tested on a real Xiaomi/MIUI device plus stock-Android testers. Expect rough edges; issues and feedback are welcome.
+The project is stable, actively maintained, and ready for everyday use. Core functionality — all five protocols, VPN and proxy modes, kill switch, split tunneling, and subscriptions — is implemented and tested on a various real devices. Development continues with ongoing improvements and fixes; issues and feedback are welcome.
 
 ## Security
 
