@@ -14,6 +14,9 @@ Ovosch Link is an Android VPN/proxy client built on [Xray-core](https://github.c
 
 Grab the latest APK from the [Releases](../../releases) page and install it directly — no Play Store required. You'll need "install from unknown sources" enabled for whichever app you download it through (browser, Telegram, etc.).
 
+## Social media
+The official Telegram channel of the project is https://OvoschLink.t.me.
+
 ## Features
 
 - **Protocols:** VLESS+Reality, VMess, Trojan, Shadowsocks, Hysteria2
