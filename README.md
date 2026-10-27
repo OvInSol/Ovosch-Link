@@ -23,14 +23,19 @@ The official Telegram channel of the project is https://OvoschLink.t.me.
 - **Two connection modes:**
   - **VPN mode** — routes all (or selected) device traffic through the tunnel
   - **Proxy mode** — a lighter, scoped alternative for split routing or when a full VPN isn't desired/allowed
-- **Subscriptions** — import server lists from a subscription URL (HTTP/HTTPS), with auto-refresh on a configurable interval
+- **Subscriptions** — import server lists from a subscription URL (HTTP/HTTPS); they refresh on their own every 3 days in the background (even if you never open the app) and on app launch, with a notification while an update runs
 - **Split tunneling** — exclude or include specific apps from the tunnel
 - **Kill switch** — blocks network traffic if the tunnel drops, so nothing leaks to the raw connection
 - **Smart routing** — route specific traffic classes (e.g. local/regional destinations) outside the tunnel automatically
 - **Ad/tracker blocking** — via a bundled domain list, applied at the routing layer
-- **Server health checks & failover** — pings the active server and can automatically switch to a working one
+- **Server health checks & failover** — pings the active server and automatically switches to a working or faster one; runs inside the connection service, so it keeps working with the app closed
+- **Session recovery** — if the system stops the connection service, the session is restored automatically; if Android forbids a background restart, you get a "Reconnect" notification
 - **Fastest-server selection** — pings all servers in a subscription and picks the best one on demand
 - **Quick Settings tile & home-screen widget** — connect/disconnect without opening the app
+- **Launch options** — choose what happens when the app opens: connect, ping all servers, refresh subscriptions
+- **Simple mode** — larger text and controls, higher contrast, fewer technical blocks
+- **Configurable ping target** — Google, Cloudflare, Android connectivity check, Apple captive portal, or your own http(s) address
+- **Country flags** — detected from the server name or flag emoji (including Russian country and city names), with a GeoIP fallback
 - **Localization** — Russian, English, and Esperanto
 
 ## Requirements
@@ -52,7 +57,7 @@ The unsigned build requires a signing config to produce an installable release A
 
 ## Status
 
-The project is stable, actively maintained, and ready for everyday use. Core functionality — all five protocols, VPN and proxy modes, kill switch, split tunneling, and subscriptions — is implemented and tested on a various real devices. Development continues with ongoing improvements and fixes; issues and feedback are welcome.
+The project is stable, actively maintained, and ready for everyday use. Core functionality — all five protocols, VPN and proxy modes, kill switch, split tunneling, and subscriptions — is implemented and tested on various real devices. Development continues with ongoing improvements and fixes; issues and feedback are welcome.
 
 ## Security
 
